@@ -1,4 +1,5 @@
-.projects-container{
+.projects-container,
+.project-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -56,3 +57,38 @@
     cursor: pointer;
 }
 
+.project-container{
+    flex-wrap: inherit;
+    padding: 10px;
+}
+
+.description,
+.project-media{
+    padding: 10px;
+    width: 50%;
+}
+
+.project-media p{
+    text-align: center;
+    padding: 10px;
+}
+
+.project-image-container{
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.project-image{
+    width: 100%;
+}
+
+@media screen and (max-width: 767px){
+    .project-container{
+        flex-wrap: wrap;
+    }
+
+    .description,
+    .project-media{
+        width: 100%;
+    }
+}
