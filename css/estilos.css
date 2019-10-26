@@ -82,6 +82,16 @@
     width: 100%;
 }
 
+.my-description{
+    display: none;
+}
+
+@media screen and (max-width: 980px){
+    .my-description{
+        display: inherit;
+    }
+}
+
 @media screen and (max-width: 767px){
     .project-container{
         flex-wrap: wrap;
