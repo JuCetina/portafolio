@@ -9,7 +9,7 @@
 }
 
 .project{
-    width: 380px;
+    width: 280px;
     height: 290px;
     margin: 20px;
     overflow: hidden;
@@ -19,8 +19,13 @@
 }
 
 .image-container{
+    width: inherit;
     margin: 0;
     vertical-align: top;
+}
+
+.image-container img{
+    width: inherit;
 }
 
 .text-container{
